@@ -4,4 +4,8 @@ Starter project for [Tesseracs](https://github.com/tesseracs) chat sessions.
 
 Clone URL: `https://github.com/tesseracs/templates.java`
 
-This repository is a minimal default; extend it in your session as needed.
+## Layout
+
+- `Main.java` — entry; uses `Greeter`.
+- `Greeter.java` — small class in the default package (compiled together in `run.sh`).
+- `run.sh` — `javac Main.java Greeter.java` then `java Main`.

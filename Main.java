@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello from Tesseracs (Java template)");
+        System.out.println(new Greeter("Tesseracs").greet());
     }
 }

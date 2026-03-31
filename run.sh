@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
-javac Main.java
+javac Main.java Greeter.java
 java Main
